@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.main-class{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto";
+    justify-content: center;
+    height: 100vh;
+}
+.Timer{
+    font-size: 50px;
+    font-family: "Roboto";
+}
+.button-card{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.button-class{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.button{
+    color: #ffffff;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 10px;
+}
+.start{
+    background-color: rgb(38, 145, 38);
+}
+.start:hover{
+    cursor: pointer;
+    background-color:  rgb(83, 159, 83);
+}
+.stop{
+    background-color: rgb(150, 10, 10); 
+}
+.stop:hover{
+    cursor: pointer;
+    background-color:   rgb(171, 56, 56);
+}
+.reset{
+    background-color:  rgb(122, 120, 120); 
+}
+.reset:hover{
+    cursor: pointer;
+    background-color: rgb(182, 179, 179);
+}
+.short{
+    background-color: rgb(35, 130, 153);
+}
+.short:hover{
+    background-color: rgb(72, 158, 179);
+    cursor: pointer;
+}
+.long{
+    background-color: rgb(117, 30, 113);
+}
+.long:hover{
+    background-color: rgb(185, 73, 179);
+    cursor: pointer;
+}
+
